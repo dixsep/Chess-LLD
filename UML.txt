@@ -1,0 +1,18 @@
+
+Game (1)----AGGRE---- > (2)player
+
+Game ----COMP----- > Board
+
+Game ---ASSOC --- > Spot ( we can replace spot by x, y coordinates)
+
+Board (1)---- COMP --- > (64)Spot
+
+Spot ----AGGRE ---- > Piece
+
+Piece ----ASSOC --- > Board
+
+Piece ---ASSOC -----> Spot
+
+Pawn -----INTERFACE --- > Piece
+
+Bishop -----INTERFACE ----> Piece
